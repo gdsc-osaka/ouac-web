@@ -5,7 +5,9 @@
     }}</v-toolbar-title>
     <v-spacer></v-spacer>
     <router-link to="/" class="nt-app-bar-link">
-      <v-btn elevation="0">Home</v-btn>
+      <v-btn elevation="0">活動内容</v-btn>
+      <v-btn elevation="0">戦績</v-btn>
+      <v-btn elevation="0">部員紹介</v-btn>
     </router-link>
   </v-app-bar>
 </template>

@@ -1,7 +1,7 @@
 export default {
   brand: {
     name: 'OUAC',
-    nameShort: 'OUAC Web',
+    nameShort: 'OUAC 大阪大学自動車部新歓ページ',
     footer: {
       links: [
         { icon: 'mdi-twitter', link: 'https://twitter.com/' },
