@@ -2,6 +2,7 @@
   <section class="my-6 py-6">
     <v-divider class="my-6"></v-divider>
     <TopIntroSection />
+    <TopActivitySection />
     <TopWelcomeEventSection />
   </section>
 </template>
