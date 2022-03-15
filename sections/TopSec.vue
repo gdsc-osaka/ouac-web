@@ -4,6 +4,7 @@
     <TopIntroSection />
     <TopActivitySection />
     <TopWelcomeEventSection />
+    <TopQASection />
   </section>
 </template>
 <script scoped>
