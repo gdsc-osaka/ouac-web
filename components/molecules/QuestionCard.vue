@@ -7,7 +7,7 @@
         height="1.25rem"
         width="1.25rem"
       />
-      <b>{{ title }}</b>
+      <b class="ml-1">{{ title }}</b>
     </h4>
     <p class="qa-body">{{ txtBody }}</p>
   </div>
@@ -54,8 +54,8 @@ export default {
 .qa-title {
   font-size: 1rem;
   display: inline-block;
-  margin-left: 1.1em;
-  text-indent: -1.1em;
+  margin-left: 1.25em;
+  text-indent: -1.25em;
 }
 .qa-body {
   font-size: 1.25rem;
