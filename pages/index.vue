@@ -1,7 +1,6 @@
 <template>
   <v-container fluid>
     <TopSec />
-    <GonuxtSec />
   </v-container>
 </template>
 
