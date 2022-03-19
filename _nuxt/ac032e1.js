@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{461:function(n,c,r){"use strict";r.r(c),c.default={name:"CardListLayoutST",data:function(){return{cards:[{imgSrc:r(273),link:"/dev"},{imgSrc:r(273),link:"/"},{imgSrc:r(273),link:"/"},{imgSrc:r(273),link:"/"}]}}}}}]);
