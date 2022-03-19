@@ -4,7 +4,7 @@
     <TopIntroSection />
     <TopActivitySection />
     <TopWelcomeEventSection />
-    <TopCardListLayoutST />
+    <TopContactSection />
     <TopQASection />
   </section>
 </template>

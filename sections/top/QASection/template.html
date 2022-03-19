@@ -23,7 +23,10 @@
       <v-col cols="12">
         <p style="text-align: center; font-size: 1.25rem">
           {{contact_text}}
-          <a href="contact_link" style="color: rgba(0, 0, 0, 0.87)">
+          <a
+            style="color: rgba(0, 0, 0, 0.87)"
+            @click="$vuetify.goTo('#contact', { offset: 90 })"
+          >
             {{contact_link_text}}
           </a>
         </p>
