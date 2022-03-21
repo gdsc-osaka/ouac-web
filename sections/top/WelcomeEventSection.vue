@@ -1,6 +1,5 @@
 <template>
-  <v-row justify="center" class="text-center my-16" no-gutters>
-    <welcome id="welcome" />
+  <v-row id="welcome" class="text-center my-16" justify="center" no-gutters>
     <v-col cols="12" sm="6">
       <h1 class="font-weight-bold">{{ title }}</h1>
       <ul class="d-block text-left text-h5">
