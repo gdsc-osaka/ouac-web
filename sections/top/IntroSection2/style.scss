@@ -1,0 +1,41 @@
+@import '@/assets/styles/app';
+.video-wrap {
+  position: relative;
+  width: 110%;
+}
+.video {
+  width: 100%;
+  height: 100%;
+}
+.video-wrap::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 99.5%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.message {
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 30%;
+  transform: translateY(-50%) translateX(-50%);
+  color: #fff;
+  text-shadow: 0 0 15px #666;
+}
+.gnt-intro-a-contents {
+  line-height: 1.6em;
+
+  .gnt-intro-a-btn {
+    text-transform: none;
+
+    // NOTE: If you want to set custom color or photo,
+    // - step.1: set these values.
+    // - step.2: set background-color or background (image);
+    // background-color: $primary !important;
+    // background: url('~@/assets/img/gonuxt/sample01.jpg');
+  }
+}
