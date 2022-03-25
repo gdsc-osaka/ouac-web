@@ -17,6 +17,10 @@ export default {
           icon: 'mdi-youtube',
           link: 'https://www.youtube.com/user/ouachp',
         },
+        {
+          icon: 'mdi-google-maps',
+          link: 'https://goo.gl/maps/oqWK5rYEbZYUxoCT7',
+        },
       ],
     },
     copyrightInfo: {

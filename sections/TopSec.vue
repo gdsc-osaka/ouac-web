@@ -3,7 +3,6 @@
     <TopIntroSection2 />
     <TopActivitySection />
     <TopWelcomeEventSection />
-    <TopContactSection />
     <TopQASection />
   </section>
 </template>
