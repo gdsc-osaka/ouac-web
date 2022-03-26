@@ -3,7 +3,7 @@ import config from '@/assets/config'
 export default {
   name: 'TheHeader',
   data: () => ({
-    imgSrc: require('@/assets/gonuxt/img/sample01.jpg'),
+    imgSrc: require('@/assets/top/img/OUAC.PNG'),
     brandName: config.brand.nameShort,
     drawer: false,
     group: null,
