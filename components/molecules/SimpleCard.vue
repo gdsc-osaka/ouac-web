@@ -1,7 +1,9 @@
 <template>
-  <v-card class="mx-auto" height="344" max-width="344">
-    <v-img :src="imgSrc" class="border" height="200px"></v-img>
-    <v-card-title class="justify-center">{{ title }}</v-card-title>
+  <v-card class="mx-auto" height="320" max-width="344">
+    <v-card-title class="justify-center text-subtitle-1 text-sm-h6">{{
+      title
+    }}</v-card-title>
+    <v-img :src="imgSrc" class="border" width="100%"></v-img>
     <v-card-subtitle class="text-left">{{ mainText }}</v-card-subtitle>
     <!--<v-card-actions>
       <v-card-text class="orange--text"> 詳細 </v-card-text>
