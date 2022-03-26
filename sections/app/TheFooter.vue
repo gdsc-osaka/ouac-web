@@ -1,5 +1,5 @@
 <template>
-  <v-footer color="primary lighten-1 py-2" padless>
+  <v-footer color="red py-2" padless>
     <v-row no-gutters justify="center">
       <template v-for="link in links">
         <a
@@ -14,7 +14,7 @@
         </a>
       </template>
 
-      <v-col class="primary lighten-1 text-center white--text" cols="12">
+      <v-col class="red text-center white--text" cols="12">
         © {{ copyright.year }} {{ copyright.owner }}
       </v-col>
     </v-row>
