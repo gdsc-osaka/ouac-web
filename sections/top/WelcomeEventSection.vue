@@ -16,6 +16,7 @@
         <h3 class="font-weight-bold">－内容－</h3>
         <p class="text-h6">
           ガレージ見学<br />
+          （部員の車やガレージの機材、整備の様子を見て頂けます）<br />
           →晩ごはん<br />
           →ドライブ(部員が家まで車で送ります!)
         </p>
@@ -136,7 +137,7 @@ export default {
     },
   },
   data: () => ({
-    imgSrc: require('@/assets/top/img/map.PNG'),
+    imgSrc: require('@/assets/top/img/map.jpg'),
     links: config.brand.footer.links,
   }),
   computed: {
