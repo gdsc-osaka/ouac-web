@@ -2,7 +2,7 @@
   <v-container id="qa">
     <v-row class="justify-left align-start">
       <v-col cols="12">
-        <p class="font-weight-bold text-h3 text-center">質問</p>
+        <h1 class="underline font-weight-bold text-center">質問</h1>
       </v-col>
       <v-col
         cols="12"
@@ -15,20 +15,6 @@
           :title="question.title"
           :txtBody="question.txtBody"
         />
-      </v-col>
-    </v-row>
-
-    <v-row>
-      <v-col cols="12">
-        <p style="text-align: center; font-size: 1.25rem">
-          {{contact_text}}
-          <a
-            style="color: rgba(0, 0, 0, 0.87)"
-            @click="$vuetify.goTo('#contact', { offset: 90 })"
-          >
-            {{contact_link_text}}
-          </a>
-        </p>
       </v-col>
     </v-row>
   </v-container>

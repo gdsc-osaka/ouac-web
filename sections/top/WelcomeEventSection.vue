@@ -1,8 +1,10 @@
 <template>
   <v-container>
-    <v-row id="welcome" class="my-16" justify="center">
-      <v-col cols="12" sm="6">
-        <h1 class="text-center font-weight-bold">{{ title }}</h1>
+    <v-row id="welcome" class="my-6" justify="center">
+      <v-col cols="12" md="6" class="mt-10">
+        <h1 class="underline text-center font-weight-bold mb-10">
+          {{ title }}
+        </h1>
         <h3 class="font-weight-bold">－日程－</h3>
         <p class="text-h6">
           毎週金曜日 18:00～<br />
@@ -69,10 +71,16 @@
           </ul>
         </li>
       </ul>-->
-      <v-col cols="12" md="6" class="black white--text">
-        <h1 id="contact" class="text-center font-weight-bold">CONTACT US</h1>
-        <h4>ー SNSからお問い合わせ</h4>
-        <p>DMなどでのご連絡お待ちしております。</p>
+      <v-col cols="12" md="6" class="grey lighten-1 mt-10">
+        <h1 id="contact" class="underline text-center font-weight-bold mb-10">
+          CONTACT US
+        </h1>
+        <h3 class="font-weight-bold">ー SNSからお問い合わせ</h3>
+        <p class="text-h6">
+          DMでのご連絡お待ちしております。<br />
+          事前にご連絡頂ければ金曜夕方以外の時間帯でも対応させていただきます。
+        </p>
+
         <div align="center">
           <template v-for="link in linksCount">
             <a
@@ -88,23 +96,20 @@
           </template>
         </div>
         <br />
-        <h4>ー メールからお問い合わせ</h4>
-        <p>
-          事前にご連絡頂ければ金曜夕方以外の時間帯でも対応させていただきます。
+        <h3 class="font-weight-bold">ー メールからお問い合わせ</h3>
+        <p class="text-h6">
+          メールでのご連絡は返信に時間がかかってしまうことがあります。
         </p>
-        <h4>ouachp@yahoo.co.jp</h4>
+        <p class="text-h5">ouachp@yahoo.co.jp</p>
         <br />
-        <h4>ー アクセス</h4>
-        <v-btn
-          style="text-transform: none"
-          large
-          class="white--text"
+        <h3 class="font-weight-bold">ー アクセス</h3>
+        <a
           href="https://goo.gl/maps/oqWK5rYEbZYUxoCT7"
-          :color="btnColor"
+          class="text-decoration-none text-h5"
+          target="_blank"
+          style="color: rgba(0, 0, 0, 0.87)"
+          >Google Map<v-icon> mdi-google-maps </v-icon></a
         >
-          {{ btnTxt }}
-          <v-icon> mdi-google-maps </v-icon>
-        </v-btn>
       </v-col>
     </v-row>
   </v-container>

@@ -1,10 +1,12 @@
 <template>
-  <v-card class="mx-auto" height="320" max-width="344">
+  <v-card class="mx-auto" :height="height" max-width="344">
     <v-card-title class="justify-center text-subtitle-1 text-sm-h6">{{
       title
     }}</v-card-title>
     <v-img :src="imgSrc" class="border" width="100%"></v-img>
-    <v-card-subtitle class="text-left">{{ mainText }}</v-card-subtitle>
+    <v-card-subtitle class="text-left text-sm-body-1 text--primary">{{
+      mainText
+    }}</v-card-subtitle>
     <!--<v-card-actions>
       <v-card-text class="orange--text"> 詳細 </v-card-text>
       <v-spacer></v-spacer>
@@ -45,6 +47,16 @@ export default {
     return {
       show: false,
     }
+  },
+  computed: {
+    height() {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs':
+          return 280
+        default:
+          return 344
+      }
+    },
   },
 }
 </script>

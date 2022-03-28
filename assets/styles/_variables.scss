@@ -1,4 +1,5 @@
-$body-font-family: '游ゴシック';
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&family=Zen+Maru+Gothic&display=swap');
+$body-font-family: 'Zen Maru Gothic', sans-serif;
 .v-application {
   .text-h1,
   .text-h2,
@@ -14,6 +15,7 @@ $body-font-family: '游ゴシック';
   .text-body-2,
   .text-button,
   .text-caption,
+  .text--primary,
   .text-overline {
     font-family: $body-font-family !important;
   }
