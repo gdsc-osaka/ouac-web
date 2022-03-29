@@ -1,0 +1,9 @@
+@import '@/assets/styles/app';
+.v-card--reveal {
+  top: 0;
+  opacity: 1 !important;
+  position: absolute;
+  width: 100%;
+  height: 180%;
+  z-index: 1;
+}

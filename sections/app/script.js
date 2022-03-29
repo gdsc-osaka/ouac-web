@@ -31,7 +31,7 @@ export default {
         icon: 'mdi-text',
         title: '部員紹介',
         nuxtLink: '/',
-        section: '',
+        section: '#member',
       },
       {
         icon: 'mdi-cards',

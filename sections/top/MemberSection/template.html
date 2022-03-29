@@ -1,0 +1,31 @@
+<v-container>
+  <v-row id="member" justify="space-around" class="my-8">
+    <v-col cols="12">
+      <h1 class="underline font-weight-bold text-center">部員紹介</h1>
+    </v-col>
+    <v-col cols="6" sm="6" md="3" v-for="member in members" :key="member.name">
+      <MemberCard
+        class="d-none d-sm-block"
+        :name="member.name"
+        :grade="member.grade"
+        :department="member.department"
+        :car="member.car"
+        :post="member.post"
+        :message="member.message"
+        :imgSrc1="member.imgSrc1"
+        :imgSrc2="member.imgSrc2"
+      />
+      <MemberCardmo
+        class="d-block d-sm-none"
+        :name="member.name"
+        :grade="member.grade"
+        :department="member.department"
+        :car="member.car"
+        :post="member.post"
+        :message="member.message"
+        :imgSrc1="member.imgSrc1"
+        :imgSrc2="member.imgSrc2"
+      />
+    </v-col>
+  </v-row>
+</v-container>
