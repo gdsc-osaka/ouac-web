@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[24],{411:function(n,t,o){n.exports=o.p+"img/intro.edfc5ec.jpg"},505:function(n,t,o){"use strict";o.r(t),t.default={name:"IntroSection2",data:function(){return{imgSrc:o(411)}}}}}]);
