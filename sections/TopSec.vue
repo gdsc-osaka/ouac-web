@@ -4,6 +4,7 @@
     <TopActivitySection />
     <TopWelcomeEventSection />
     <TopMemberSection />
+    <TopPvSection />
     <TopQASection />
   </section>
 </template>
