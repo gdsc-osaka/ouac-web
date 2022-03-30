@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{408:function(n,c,t){n.exports=t.p+"img/sample01.be8c630.jpg"},499:function(n,c,t){"use strict";t.r(c),c.default={name:"ContactSection",data:function(){return{cards:[{imgSrc:t(408),link:"/dev"},{imgSrc:t(408),link:"/"},{imgSrc:t(408),link:"/"},{imgSrc:t(408),link:"/"}]}}}}}]);
