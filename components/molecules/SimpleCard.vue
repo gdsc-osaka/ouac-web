@@ -40,7 +40,7 @@ export default {
     },
     imgSrc: {
       type: String,
-      default: require('@/assets/gonuxt/img/sample01.jpg'),
+      default: require('@/assets/top/img/gymkhana.jpg'),
     },
   },
   data() {
@@ -52,7 +52,15 @@ export default {
     height() {
       switch (this.$vuetify.breakpoint.name) {
         case 'xs':
-          return 280
+          return 300
+        case 'sm':
+          return 380
+        case 'md':
+          return 320
+        case 'lg':
+          return 360
+        case 'xl':
+          return 380
         default:
           return 344
       }

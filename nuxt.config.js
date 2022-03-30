@@ -21,14 +21,19 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - OUAC',
-    title: 'OUAC Web',
+    title: '大阪大学自動車部新歓ページ',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'jp',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'OUAC' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          '大阪大学体育会自動車部の新歓ホームページです。活動内容や新歓情報、部員紹介、よくある質問などの新入生に役立つ情報を掲載しています！',
+      },
       { name: 'format-detection', content: 'telephone=no' },
       {
         hid: 'keywords',
@@ -41,22 +46,23 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://gdsc-osaka.github.io/gonuxt/',
+        content: 'https://gdsc-osaka.github.io/ouac-web/',
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'OUAC - Web Site of OUAC',
+        content: '大阪大学自動車部新歓ページ',
       },
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'OUAC',
+        content:
+          '大阪大学体育会自動車部の新歓ホームページです。活動内容や新歓情報、部員紹介、よくある質問などの新入生に役立つ情報を掲載しています！',
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://gdsc-osaka.github.io/v.png',
+        content: 'https://gdsc-osaka.github.io/ouac-web/og.jpg',
       },
 
       {
@@ -64,7 +70,7 @@ export default {
         name: 'twitter:card',
         content: 'summary_large_image',
       },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@GDSC_osaka' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@ouachp' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: faviconPath }],
   },

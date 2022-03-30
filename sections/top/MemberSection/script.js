@@ -10,7 +10,7 @@ export default {
         department: '経済学部',
         car: 'Mazda Roadster NB8C',
         post: '主将',
-        message: '（まだ来てないので後から挿入してください...）',
+        message: '大学に入って新たなことをしてみたい人、大歓迎です！',
         imgSrc1: require('@/assets/top/img/1YN.jpg'),
         imgSrc2: require('@/assets/top/img/2YN.jpg'),
       },
