@@ -34,6 +34,12 @@ export default {
         section: '#member',
       },
       {
+        icon: 'mdi-youtube',
+        title: 'PV',
+        nuxtLink: '/',
+        section: '#pv',
+      },
+      {
         icon: 'mdi-cards',
         title: '質問',
         nuxtLink: '/',
