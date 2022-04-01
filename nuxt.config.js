@@ -103,7 +103,14 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@/modules/custom-generate.js', '@nuxtjs/sitemap'],
+  modules: [
+    '@/modules/custom-generate.js',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/google-gtag',
+    {
+      id: 'G-9M0352985E',
+    },
+  ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
