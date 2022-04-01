@@ -107,9 +107,6 @@ export default {
     '@/modules/custom-generate.js',
     '@nuxtjs/sitemap',
     '@nuxtjs/google-gtag',
-    {
-      id: 'G-9M0352985E',
-    },
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -124,5 +121,8 @@ export default {
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://gdsc-osaka.github.io/ouac-web/',
+  },
+  'google-gtag': {
+    id: 'G-9M0352985E',
   },
 }
