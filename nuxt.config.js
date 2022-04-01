@@ -103,7 +103,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@/modules/custom-generate.js'],
+  modules: ['@/modules/custom-generate.js', '@nuxtjs/sitemap'],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
@@ -113,4 +113,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://gdsc-osaka.github.io/ouac-web/',
+  },
 }
