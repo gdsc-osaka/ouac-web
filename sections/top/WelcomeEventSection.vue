@@ -39,49 +39,18 @@
           </v-btn>
         </div>
       </v-col>
-      <!--<ul class="d-block text-left text-h5">
-        <li class="ml-15">
-          日程：毎週金曜日 18:00～
-          <ul class="ml-12">
-            <li>昼過ぎからは誰かしら居ることが多いので、</li>
-            <li>早めの時間でもお気軽にお越しください。</li>
-          </ul>
-        </li>
-        <li class="ml-15">場所：自動車部ガレージ</li>
-      </ul>
-      <div class="mb-2">
-        <v-btn
-          style="text-transform: none"
-          large
-          rounded
-          class="white--text"
-          href="https://goo.gl/maps/oqWK5rYEbZYUxoCT7"
-          :color="btnColor"
-        >
-          {{ btnTxt }}
-        </v-btn>
-      </div>
-      <ul class="d-block text-left text-h5">
-        <li class="ml-n3">イベント名：部会&新歓ドライブ</li>
-        <li class="ml-15">
-          内容：ガレージ見学
-          <ul class="ml-12">
-            <li>→晩ごはん</li>
-            <li>→ドライブ(部員が家まで車で送ります!)</li>
-          </ul>
-        </li>
-      </ul>-->
+
       <v-col cols="12" md="6" class="grey lighten-1 mt-10">
         <h1 id="contact" class="underline text-center font-weight-bold mb-10">
           CONTACT US
         </h1>
         <h3 class="font-weight-bold">ー SNSからお問い合わせ</h3>
         <p class="text-h6">
-          DMでのご連絡お待ちしております。<br />
+          DMでのイベント参加のご連絡お待ちしております。<br />
           事前にご連絡頂ければ金曜夕方以外の時間帯でも対応させていただきます。
         </p>
 
-        <div align="center">
+        <div align="center" class="d-flex justify-center my-10">
           <template v-for="link in linksCount">
             <a
               :key="link.icon"
@@ -89,9 +58,10 @@
               target="_blank"
               class="text-decoration-none"
             >
-              <v-btn color="white" icon class="ma-10">
+              <v-btn color="white" icon class="mx-10">
                 <v-icon size="5em">{{ link.icon }}</v-icon>
               </v-btn>
+              <p class="mt-3 id">{{ link.id }}</p>
             </a>
           </template>
         </div>
@@ -100,7 +70,9 @@
         <p class="text-h6">
           メールでのご連絡は返信に時間がかかってしまうことがあります。
         </p>
-        <p class="text-h5">ouachp@yahoo.co.jp</p>
+        <a href="mailto:ouachp@yahoo.co.jp" class="text-decoration-none"
+          ><p class="text-h5 mail">ouachp@yahoo.co.jp</p>
+        </a>
         <br />
         <h3 class="font-weight-bold">ー アクセス</h3>
         <a
@@ -124,17 +96,9 @@ export default {
       type: String,
       default: '新歓情報',
     },
-    txtBody: {
-      type: String,
-      default: '',
-    },
     btnTxt: {
       type: String,
       default: 'Google Map',
-    },
-    subTxt: {
-      type: String,
-      default: 'Sample Subtext',
     },
     btnColor: {
       type: String,
@@ -155,7 +119,17 @@ export default {
 
 <style lang="scss">
 @import '@/assets/styles/app';
-ul {
-  list-style: none;
+
+.id {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  color: rgb(255, 255, 255);
+}
+.mail {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  color: rgba(0, 0, 0, 0.87);
 }
 </style>

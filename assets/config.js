@@ -4,14 +4,20 @@ export default {
     nameShort: 'OUAC 大阪大学自動車部',
     footer: {
       links: [
-        { icon: 'mdi-twitter', link: 'https://twitter.com/ouachp' },
+        {
+          icon: 'mdi-twitter',
+          link: 'https://twitter.com/ouachp',
+          id: '@ouachp',
+        },
         {
           icon: 'mdi-instagram',
           link: 'https://www.instagram.com/ouac_220/',
+          id: '@ouac_220',
         },
         {
           icon: 'mdi-facebook',
           link: 'https://www.facebook.com/ouac.official',
+          id: '@ouac.official',
         },
         {
           icon: 'mdi-youtube',

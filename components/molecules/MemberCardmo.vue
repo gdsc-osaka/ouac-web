@@ -14,7 +14,7 @@
           width="100%"
           @click="reveal = false"
         ></v-img>
-        <v-card-text class="pb-3">
+        <v-card-text class="py-3">
           <p class="text-h4 text--primary">{{ name }}</p>
           <p class="text--primary">
             学年：{{ grade }}<br />
